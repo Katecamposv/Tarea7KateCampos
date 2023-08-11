@@ -1,0 +1,84 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tarea 8</title>
+    <link rel="stylesheet" href="index.css">
+    <script src="index.js"></script>
+</head>
+
+<body>
+
+    <h1 class="Titulo">Calculos Java Script</h1>
+    <div class="Calculos">
+    
+    <p>Digite su edad</p>
+    <input type="text" id="Edad">
+    <br>
+    <br>
+    <button onclick="Edad()">Verificar</button>
+
+    <p>Digite su calificación (0-10)</p>
+    <input type="text" id="nota">
+    <br>
+    <br>
+    <button onclick="Calificacion()">Verificar</button>
+
+    <p>Digite un texto</p>
+    <input type="text" id="cadena">
+    <br>
+    <br>
+    <button onclick="CadenaTexto()">Añadir</button>
+    <button onclick="Cancelar()">Cancelar</button>
+    <br>
+    <br>
+    <p id="ResultadoCadena"></p>
+
+    <p>Digite un numero</p>
+    <input type="text" id="suma">
+    <br>
+    <br>
+    <button onclick="Suma()">Añadir</button>
+    <button onclick="CancelarSuma()">Cancelar</button>
+
+    <p id="sumaTotal"></p>
+
+    <p>Calculadora de Letra de Cédula</p>
+    <input type="text" id="cedulaInput">
+    <br>
+    <br>
+    <button onclick="CalcularLetra()">Calcular Letra</button>
+    <br>
+    <br>
+    <p id="resultadoSuma"></p>
+
+    <p>Generar Tabla</p>
+    <label for="filas">Número de filas:</label>
+    <input type="text" id="filas" min="1">
+    <br>
+    <br>
+    <label for="columnas">Número de columnas:</label>
+    <input type="text" id="columnas" min="1">
+    <br>
+    <br>
+    <button onclick="GenerarTabla()">Generar Tabla</button>
+
+    <br>
+    <br>
+    <div id="tablaContainer"></div>
+
+    <p>Calculadora de Precio con IVA</p>
+    <input type="text" id="textoPrecio" >
+    <input type="text" id="textoIVA"  value="13">
+    <br>
+    <br>
+    <button onclick="PrecioIVA()" type="button" class="btn btn-outline-danger">Calcular</button>
+    <br>
+    <br>
+
+    <p id="resultadoIVA"></p>
+</div>
+</body>
+
+</html>
